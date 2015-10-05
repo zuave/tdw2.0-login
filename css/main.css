@@ -1,0 +1,273 @@
+body{ 
+    background-color: rgb(255, 255, 255);
+     
+}
+/*--   contenedor  ---*/
+#contenedor {
+    margin: 0px auto;
+}
+
+/*--   encabezado ---*/
+
+header {
+    font-family: Helvetica;
+    font-size: 1.5em;
+    top: 0px;
+    width: 85%;
+    height:2.2em;
+    padding: 1% 2%;
+    margin: 1% auto;
+    color: #fff;
+    background-color: #6d6d6d;
+    -ms-box-shadow:  0px 4px 0px #000;
+    -moz-box-shadow:  0px 4px 0px #000;
+    -webkit-box-shadow:  0px 4px 0px #000;
+    -o-box-shadow:  0px 4px 0px #000;
+    box-shadow:  0px 4px 0px #000;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: #00f;
+}
+
+header nav a.activo {
+    color: #f90;
+}
+
+header aside {
+    float: left;
+}
+
+header aside span.naranja {
+    color: #fa0;
+}
+
+header nav {
+    float: right;
+
+}
+
+
+/*//////////////////////////////////////////////////////////////////
+                    inicia login.html
+//////////////////////////////////////////////////////////////////*/
+
+#login {
+    background-color: #fff;
+    width: 25%;
+    padding: 1%;
+    margin: 7% auto;
+    border: 3px solid #ff6200;
+    border-radius: 8px;
+    box-shadow:inset  0px 0px 10px #000;
+}
+/*--   texto  "login" ---*/
+
+ form h1{
+     font-family: Helvetica;
+     color: black;
+     text-align:  center;
+     font-size: 250%;
+}
+/*--   texto "ingresar" ---*/
+form h2{
+    font-family: Helvetica;
+    color: aliceblue;
+    text-align: center;
+    font-size: 50%;
+    
+}
+/*--   recuadros txt ---*/
+
+form input {
+    width: 60%;
+    height: 20px;
+    margin: 1% 20%;
+    color: #ff6200;
+    text-align: center;
+    border-radius: 5px;
+}
+/*--   botones ---*/
+
+form button {
+    background-color: #0b9f1c;
+    font-family: Helvetica;
+    font-size: 20px;
+    color: #fff;
+    width: 40%;
+    height: 30px;
+    margin: 5% 30%;
+    border-radius: 7px;
+    box-shadow: 0px 2px 0px;
+}
+form button:hover {
+    background-color: #1717f7;
+}
+/*//////////////////////////////////////////////////////////////////
+                   termina  login.html
+//////////////////////////////////////////////////////////////////*/
+
+/*//////////////////////////////////////////////////////////////////
+                    inicia login-incorrecto.html
+//////////////////////////////////////////////////////////////////*/
+
+#contenido_incorrecto{
+    
+        width: 30%; /* 960px, 1366px */
+        min-width: 10%; 
+        max-widtt: 30%;
+        padding: 1%;
+        margin: 7% auto; /*centrar*/
+    
+}
+
+    #mensaje_incorrecto {
+        text-align: center; 
+        border: 3px solid #fcb316;
+        -webkit-border-radius: 7px;
+        -o-border-radius: 7px;
+        -moz-border-radius: 7px;
+        -ms-border-radius: 7px;
+        border-radius: 7px;
+        
+        -webkit-box-shadow: 3px 3px 12px #e3e2e2;	
+        -o-box-shadow: 3px 3px 12px #e3e2e2;	
+        -moz-box-shadow: 3px 3px 12px #e3e2e2;	
+        -ms-box-shadow: 3px 3px 12px #e3e2e2;	
+        box-shadow: 5px 5px 12px #e3e2e2;	
+    
+        
+    }
+
+    .error  {
+        text-align: center;
+        padding: 15px 2%; /* 15px/960 = 0.015 => 1.5% redondeando a 2% */
+        background-color: #fcb316;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        color: #fff;
+        -webkit-border-radius: 12px;
+        -o-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        border-radius: 12px;
+        
+        -webkit-box-shadow: 3px 3px 12px #e3e2e2;	
+        -o-box-shadow: 3px 3px 12px #e3e2e2;	
+        -moz-box-shadow: 3px 3px 12px #e3e2e2;	
+        -ms-box-shadow: 3px 3px 12px #e3e2e2;	
+        box-shadow: 3px 3px 12px #e3e2e2;	
+            /* 5px desplaza horizontal derecha y negativos izquierda segundo valor xpx desplaza vertical abajo tercer valor 10px difuminado de sombra */
+        
+        }
+
+    article {
+        padding: 15px;
+        margin-bottom: 15px;
+        background-color: #ffffff;
+        }
+
+
+    #boton{
+        padding: 12px;
+        background-color: #45cba1;
+        margin-top: 0px auto;
+        color: #fff;
+        -webkit-border-radius: 12px;
+        -o-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        border-radius: 12px;
+        
+           -webkit-box-shadow: 3px 3px 12px #e3e2e2;	
+        -o-box-shadow: 3px 3px 12px #e3e2e2;	
+        -moz-box-shadow: 3px 3px 12px #e3e2e2;	
+        -ms-box-shadow: 3px 3px 12px #e3e2e2;	
+        box-shadow: 3px 3px 12px #e3e2e2;	
+    
+}
+/*//////////////////////////////////////////////////////////////////
+                    termina login-incorrecto.html
+//////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////
+                    iniciausuario-noexiste.html
+//////////////////////////////////////////////////////////////////*/
+
+#contenido_noexiste{
+    
+       width: 30%; /* 960px, 1366px */
+        min-width: 10%; 
+        max-widtt: 30%;
+        padding: 1%;
+        margin: 4% auto; /*centrar*/
+}
+
+
+    #mensaje_noexiste {
+        text-align: center; 
+        border: 3px solid #fcb316;
+        -webkit-border-radius: 7px;
+        -o-border-radius: 7px;
+        -moz-border-radius: 7px;
+        -ms-border-radius: 7px;
+        border-radius: 7px;
+        
+        -webkit-box-shadow: 3px 3px 12px #e3e2e2;	
+        -o-box-shadow: 3px 3px 12px #e3e2e2;	
+        -moz-box-shadow: 3px 3px 12px #e3e2e2;	
+        -ms-box-shadow: 3px 3px 12px #e3e2e2;	
+        box-shadow: 5px 5px 12px #e3e2e2;	
+    
+        
+    }
+article {
+        padding: 15px;
+        margin-bottom: 15px;
+        background-color: #ffffff;
+        }
+
+
+    #boton{
+        padding: 12px;
+        background-color: #45cba1;
+        margin: 1% auto;
+        color: #fff;
+        -webkit-border-radius: 12px;
+        -o-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        border-radius: 12px;
+        
+           -webkit-box-shadow: 3px 3px 12px #e3e2e2;	
+        -o-box-shadow: 3px 3px 12px #e3e2e2;	
+        -moz-box-shadow: 3px 3px 12px #e3e2e2;	
+        -ms-box-shadow: 3px 3px 12px #e3e2e2;	
+        box-shadow: 3px 3px 12px #e3e2e2;	
+    
+}
+
+   
+/*////////////////--   pie de pagina ---//////////////////////////*/
+footer {
+    background-color: #6d6d6d;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 1.5em;
+    width: 85%;
+    height:2.2em;
+    padding: 1% 2%;
+    margin: 1% auto;
+    ms-box-shadow:  0px 4px 0px #000;
+    -moz-box-shadow:  0px 4px 0px #000;
+    -webkit-box-shadow:  0px 4px 0px #000;
+    -o-box-shadow:  0px 4px 0px #000;
+    box-shadow:  0px 4px 0px #000;
+}
+.muted {
+  color: #fa0;
+}
