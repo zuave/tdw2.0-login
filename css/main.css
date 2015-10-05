@@ -1,6 +1,6 @@
-body{ 
+body{
     background-color: rgb(255, 255, 255);
-     
+
 }
 /*--   contenedor  ---*/
 #contenedor {
@@ -53,6 +53,7 @@ header nav {
 }
 
 
+
 /*//////////////////////////////////////////////////////////////////
                     inicia login.html
 //////////////////////////////////////////////////////////////////*/
@@ -80,7 +81,7 @@ form h2{
     color: aliceblue;
     text-align: center;
     font-size: 50%;
-    
+
 }
 /*--   recuadros txt ---*/
 
@@ -117,31 +118,32 @@ form button:hover {
 //////////////////////////////////////////////////////////////////*/
 
 #contenido_incorrecto{
-    
+
         width: 30%; /* 960px, 1366px */
-        min-width: 10%; 
+        min-width: 10%;
         max-widtt: 30%;
         padding: 1%;
         margin: 7% auto; /*centrar*/
-    
+
 }
 
+
     #mensaje_incorrecto {
-        text-align: center; 
+        text-align: center;
         border: 3px solid #fcb316;
         -webkit-border-radius: 7px;
         -o-border-radius: 7px;
         -moz-border-radius: 7px;
         -ms-border-radius: 7px;
         border-radius: 7px;
-        
-        -webkit-box-shadow: 3px 3px 12px #e3e2e2;	
-        -o-box-shadow: 3px 3px 12px #e3e2e2;	
-        -moz-box-shadow: 3px 3px 12px #e3e2e2;	
-        -ms-box-shadow: 3px 3px 12px #e3e2e2;	
-        box-shadow: 5px 5px 12px #e3e2e2;	
-    
-        
+
+        -webkit-box-shadow: 3px 3px 12px #e3e2e2;
+        -o-box-shadow: 3px 3px 12px #e3e2e2;
+        -moz-box-shadow: 3px 3px 12px #e3e2e2;
+        -ms-box-shadow: 3px 3px 12px #e3e2e2;
+        box-shadow: 5px 5px 12px #e3e2e2;
+
+
     }
 
     .error  {
@@ -156,14 +158,14 @@ form button:hover {
         -moz-border-radius: 12px;
         -ms-border-radius: 12px;
         border-radius: 12px;
-        
-        -webkit-box-shadow: 3px 3px 12px #e3e2e2;	
-        -o-box-shadow: 3px 3px 12px #e3e2e2;	
-        -moz-box-shadow: 3px 3px 12px #e3e2e2;	
-        -ms-box-shadow: 3px 3px 12px #e3e2e2;	
-        box-shadow: 3px 3px 12px #e3e2e2;	
+
+        -webkit-box-shadow: 3px 3px 12px #e3e2e2;
+        -o-box-shadow: 3px 3px 12px #e3e2e2;
+        -moz-box-shadow: 3px 3px 12px #e3e2e2;
+        -ms-box-shadow: 3px 3px 12px #e3e2e2;
+        box-shadow: 3px 3px 12px #e3e2e2;
             /* 5px desplaza horizontal derecha y negativos izquierda segundo valor xpx desplaza vertical abajo tercer valor 10px difuminado de sombra */
-        
+
         }
 
     article {
@@ -183,13 +185,13 @@ form button:hover {
         -moz-border-radius: 12px;
         -ms-border-radius: 12px;
         border-radius: 12px;
-        
-           -webkit-box-shadow: 3px 3px 12px #e3e2e2;	
-        -o-box-shadow: 3px 3px 12px #e3e2e2;	
-        -moz-box-shadow: 3px 3px 12px #e3e2e2;	
-        -ms-box-shadow: 3px 3px 12px #e3e2e2;	
-        box-shadow: 3px 3px 12px #e3e2e2;	
-    
+
+           -webkit-box-shadow: 3px 3px 12px #e3e2e2;
+        -o-box-shadow: 3px 3px 12px #e3e2e2;
+        -moz-box-shadow: 3px 3px 12px #e3e2e2;
+        -ms-box-shadow: 3px 3px 12px #e3e2e2;
+        box-shadow: 3px 3px 12px #e3e2e2;
+
 }
 /*//////////////////////////////////////////////////////////////////
                     termina login-incorrecto.html
@@ -199,9 +201,9 @@ form button:hover {
 //////////////////////////////////////////////////////////////////*/
 
 #contenido_noexiste{
-    
+
        width: 30%; /* 960px, 1366px */
-        min-width: 10%; 
+        min-width: 10%;
         max-widtt: 30%;
         padding: 1%;
         margin: 4% auto; /*centrar*/
@@ -209,21 +211,21 @@ form button:hover {
 
 
     #mensaje_noexiste {
-        text-align: center; 
+        text-align: center;
         border: 3px solid #fcb316;
         -webkit-border-radius: 7px;
         -o-border-radius: 7px;
         -moz-border-radius: 7px;
         -ms-border-radius: 7px;
         border-radius: 7px;
-        
-        -webkit-box-shadow: 3px 3px 12px #e3e2e2;	
-        -o-box-shadow: 3px 3px 12px #e3e2e2;	
-        -moz-box-shadow: 3px 3px 12px #e3e2e2;	
-        -ms-box-shadow: 3px 3px 12px #e3e2e2;	
-        box-shadow: 5px 5px 12px #e3e2e2;	
-    
-        
+
+        -webkit-box-shadow: 3px 3px 12px #e3e2e2;
+        -o-box-shadow: 3px 3px 12px #e3e2e2;
+        -moz-box-shadow: 3px 3px 12px #e3e2e2;
+        -ms-box-shadow: 3px 3px 12px #e3e2e2;
+        box-shadow: 5px 5px 12px #e3e2e2;
+
+
     }
 article {
         padding: 15px;
@@ -242,16 +244,16 @@ article {
         -moz-border-radius: 12px;
         -ms-border-radius: 12px;
         border-radius: 12px;
-        
-           -webkit-box-shadow: 3px 3px 12px #e3e2e2;	
-        -o-box-shadow: 3px 3px 12px #e3e2e2;	
-        -moz-box-shadow: 3px 3px 12px #e3e2e2;	
-        -ms-box-shadow: 3px 3px 12px #e3e2e2;	
-        box-shadow: 3px 3px 12px #e3e2e2;	
-    
+
+           -webkit-box-shadow: 3px 3px 12px #e3e2e2;
+        -o-box-shadow: 3px 3px 12px #e3e2e2;
+        -moz-box-shadow: 3px 3px 12px #e3e2e2;
+        -ms-box-shadow: 3px 3px 12px #e3e2e2;
+        box-shadow: 3px 3px 12px #e3e2e2;
+
 }
 
-   
+
 /*////////////////--   pie de pagina ---//////////////////////////*/
 footer {
     background-color: #6d6d6d;
@@ -270,4 +272,9 @@ footer {
 }
 .muted {
   color: #fa0;
+}
+
+#CONTENIDO
+{
+    text-align: center;
 }
